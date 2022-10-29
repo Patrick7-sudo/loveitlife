@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E76BB4E290B011F00DDF52B /* WelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76BB4D290B011F00DDF52B /* WelcomePageController.swift */; };
+		4E76BB50290C8D5F00DDF52B /* ListPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76BB4F290C8D5F00DDF52B /* ListPageController.swift */; };
 		4EC6D023290972E70079062F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6D022290972E70079062F /* AppDelegate.swift */; };
 		4EC6D025290972E70079062F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6D024290972E70079062F /* SceneDelegate.swift */; };
 		4EC6D027290972E70079062F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6D026290972E70079062F /* ViewController.swift */; };
 		4EC6D02A290972E70079062F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D028290972E70079062F /* Main.storyboard */; };
 		4EC6D02C290972E70079062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D02B290972E70079062F /* Assets.xcassets */; };
 		4EC6D02F290972E70079062F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D02D290972E70079062F /* LaunchScreen.storyboard */; };
+		4EE011E3290AF151008B79AB /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */; };
+		4EE011E5290AF444008B79AB /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE011E4290AF444008B79AB /* Nunito-Light.ttf */; };
+		4EF999F0290AE4A100AB2D56 /* Ubuntu-Title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */; };
+		4EF999F2290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF999F1290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf */; };
+		4EF999F4290AE72600AB2D56 /* FS-Joey-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF999F3290AE72600AB2D56 /* FS-Joey-Bold.ttf */; };
+		4EF999F6290AE80300AB2D56 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF999F5290AE80300AB2D56 /* Nunito-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E76BB4D290B011F00DDF52B /* WelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
+		4E76BB4F290C8D5F00DDF52B /* ListPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageController.swift; sourceTree = "<group>"; };
 		4EC6D01F290972E70079062F /* loveitlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loveitlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC6D022290972E70079062F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC6D024290972E70079062F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		4EC6D02B290972E70079062F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC6D02E290972E70079062F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC6D030290972E70079062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Medium.ttf"; path = "../../../Nunito (1)/static/Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		4EE011E4290AF444008B79AB /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Light.ttf"; path = "../../../Nunito (1)/static/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Title.ttf"; path = "../../../ubuntu_title/Ubuntu-Title.ttf"; sourceTree = "<group>"; };
+		4EF999F1290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MavenPro-VariableFont_wght.ttf"; path = "../../../Maven_Pro/MavenPro-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4EF999F3290AE72600AB2D56 /* FS-Joey-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FS-Joey-Bold.ttf"; path = "../../../../Downloads/FS-Joey-Bold.ttf"; sourceTree = "<group>"; };
+		4EF999F5290AE80300AB2D56 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../Nunito (1)/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E76BB4C290B00FC00DDF52B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EC6D026290972E70079062F /* ViewController.swift */,
+				4E76BB4D290B011F00DDF52B /* WelcomePageController.swift */,
+				4E76BB4F290C8D5F00DDF52B /* ListPageController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4EC6D016290972E70079062F = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +84,27 @@
 			children = (
 				4EC6D022290972E70079062F /* AppDelegate.swift */,
 				4EC6D024290972E70079062F /* SceneDelegate.swift */,
-				4EC6D026290972E70079062F /* ViewController.swift */,
+				4E76BB4C290B00FC00DDF52B /* Controllers */,
 				4EC6D028290972E70079062F /* Main.storyboard */,
+				4EF999B4290AD6D300AB2D56 /* Fonts */,
 				4EC6D02B290972E70079062F /* Assets.xcassets */,
 				4EC6D02D290972E70079062F /* LaunchScreen.storyboard */,
 				4EC6D030290972E70079062F /* Info.plist */,
 			);
 			path = loveitlife;
+			sourceTree = "<group>";
+		};
+		4EF999B4290AD6D300AB2D56 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */,
+				4EE011E4290AF444008B79AB /* Nunito-Light.ttf */,
+				4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */,
+				4EF999F1290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf */,
+				4EF999F3290AE72600AB2D56 /* FS-Joey-Bold.ttf */,
+				4EF999F5290AE80300AB2D56 /* Nunito-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +165,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF999F0290AE4A100AB2D56 /* Ubuntu-Title.ttf in Resources */,
+				4EF999F4290AE72600AB2D56 /* FS-Joey-Bold.ttf in Resources */,
+				4EF999F2290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf in Resources */,
 				4EC6D02F290972E70079062F /* LaunchScreen.storyboard in Resources */,
 				4EC6D02C290972E70079062F /* Assets.xcassets in Resources */,
+				4EE011E5290AF444008B79AB /* Nunito-Light.ttf in Resources */,
+				4EF999F6290AE80300AB2D56 /* Nunito-Bold.ttf in Resources */,
 				4EC6D02A290972E70079062F /* Main.storyboard in Resources */,
+				4EE011E3290AF151008B79AB /* Nunito-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC6D027290972E70079062F /* ViewController.swift in Sources */,
+				4E76BB4E290B011F00DDF52B /* WelcomePageController.swift in Sources */,
 				4EC6D023290972E70079062F /* AppDelegate.swift in Sources */,
 				4EC6D025290972E70079062F /* SceneDelegate.swift in Sources */,
+				4E76BB50290C8D5F00DDF52B /* ListPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
