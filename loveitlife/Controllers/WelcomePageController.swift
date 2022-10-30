@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class WelcomePageController: UIViewController {
     
@@ -36,10 +37,9 @@ class WelcomePageController: UIViewController {
     }
     
 //    prounds function button
-   
+
     @IBAction func ProudsPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "gotoListPage", sender: self)
+        performSegue(withIdentifier: "goToListPage", sender: self)
     }
-    
     
 }

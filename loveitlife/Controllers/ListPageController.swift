@@ -2,18 +2,23 @@
 //  ListPageController.swift
 //  loveitlife
 //
-//  Created by tasniim on 28/10/2022.
+//  Created by tasniim on 29/10/2022.
 //
+
+
 
 import UIKit
 
-class ListPageController: UIViewController {
+
+class ListPageController: UIViewController{
+
     
-    @IBOutlet weak var labeling: UILabel!
-    override func viewDidLoad(){
+    
+  
+    override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("List page")
+        print("Hello there")
+      
     }
- 
+       
 }
