@@ -15,6 +15,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var userPassCodeInput: UITextField!
     @IBOutlet weak var userPasscodeButton: UIButton!
     
+//    var quotesManager2 = QuotesManager2()
+
+    //  empty variable for our quote data
+    var quoteIndividual = "mehmeh"
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        if user text something it will let viewController know what user doing. self refer to viewcontroller
@@ -40,30 +46,87 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //styling user button for logIn passcode
         userPasscodeButton!.titleLabel?.font = UIFont(name:"Nunito-Bold", size: 16)
         userPasscodeButton.layer.cornerRadius = 25
-     
+
+   
+ 
+        
+
+      
+        //    quotes api importing
+           
+            
+//        quotesManager2.fetchQuotes()
+
+      
     }
 
+   
 
     @IBAction func Loginpressed(_ sender: UIButton) {
 //        after press the button hide the keyboard
         userPassCodeInput.endEditing(true)
+//        print(self.quoteIndividual)
         print("Hellothere")
 //        print(userPassCodeInput.text!)
         self.performSegue(withIdentifier: "goToWelcomePage", sender: self)
+        
     }
+    
+    
     
 //     to initailze the submit button and get the info from the userPasscode
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         //        after press the return button hide the keyboard
                 userPassCodeInput.endEditing(true)
-        print(userPassCodeInput.text!)
+              
         return true
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        if segue.identifier == "gotToWelcomePage" {
-            _ = segue.destination as! WelcomePageController
+//    checking if its end finish and its the correct one
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        if userPassCodeInput.text != "" {
+            return true
+        }else {
+            userPassCodeInput.placeholder = "Please Enter Valid code"
+            return false
         }
+    }
+    
+//    func working (){
+//        quotesManager2.fetchQuotes()
+//        print("not working")
+//    }
+//    to clear the input box after the user done editing
+    func textFieldDidEndEditing(_ textField: UITextField) {
+//        get the user input
+        userPassCodeInput.text = ""
+    }
+    
+//    update the quotes from the api
+//    func didUpdateQuote(quote: QuotesModel) {
+//       
+//        //        quotelabel update
+////                quotes.text = quote.quoteText
+//       quoteIndividual =  quote.quoteText
+////        print(self.quoteIndividual)
+//
+//      
+////
+//     
+//    }
+        
+      
+        
+  
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        
+    
+        let firstVC = segue.destination as! WelcomePageController
+        
+        firstVC.quotesDataText = quoteIndividual
+
+        
+        
     }
 
 }

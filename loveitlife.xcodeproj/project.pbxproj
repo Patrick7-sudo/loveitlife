@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4E4651BA290DB7CF00344570 /* ListPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651B9290DB7CF00344570 /* ListPageController.swift */; };
 		4E4651DD290DC2C600344570 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651DC290DC2C600344570 /* List.swift */; };
+		4E4651DF290E950300344570 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651DE290E950300344570 /* QuotesManager.swift */; };
+		4E4651E1290EABF300344570 /* QuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651E0290EABF300344570 /* QuotesData.swift */; };
+		4E4651E3290EC9F700344570 /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651E2290EC9F700344570 /* QuotesModel.swift */; };
 		4E76BB4E290B011F00DDF52B /* WelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76BB4D290B011F00DDF52B /* WelcomePageController.swift */; };
 		4EC6D023290972E70079062F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6D022290972E70079062F /* AppDelegate.swift */; };
 		4EC6D025290972E70079062F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6D024290972E70079062F /* SceneDelegate.swift */; };
@@ -27,6 +30,9 @@
 /* Begin PBXFileReference section */
 		4E4651B9290DB7CF00344570 /* ListPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageController.swift; sourceTree = "<group>"; };
 		4E4651DC290DC2C600344570 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		4E4651DE290E950300344570 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		4E4651E0290EABF300344570 /* QuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesData.swift; sourceTree = "<group>"; };
+		4E4651E2290EC9F700344570 /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
 		4E76BB4D290B011F00DDF52B /* WelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
 		4EC6D01F290972E70079062F /* loveitlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loveitlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC6D022290972E70079062F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				4E4651DC290DC2C600344570 /* List.swift */,
+				4E4651DE290E950300344570 /* QuotesManager.swift */,
+				4E4651E0290EABF300344570 /* QuotesData.swift */,
+				4E4651E2290EC9F700344570 /* QuotesModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -109,9 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */,
-				4EE011E4290AF444008B79AB /* Nunito-Light.ttf */,
 				4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */,
 				4EF999F1290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf */,
+				4EE011E4290AF444008B79AB /* Nunito-Light.ttf */,
 				4EF999F3290AE72600AB2D56 /* FS-Joey-Bold.ttf */,
 				4EF999F5290AE80300AB2D56 /* Nunito-Bold.ttf */,
 			);
@@ -197,9 +206,12 @@
 			files = (
 				4EC6D027290972E70079062F /* ViewController.swift in Sources */,
 				4E76BB4E290B011F00DDF52B /* WelcomePageController.swift in Sources */,
+				4E4651E3290EC9F700344570 /* QuotesModel.swift in Sources */,
 				4EC6D023290972E70079062F /* AppDelegate.swift in Sources */,
+				4E4651DF290E950300344570 /* QuotesManager.swift in Sources */,
 				4EC6D025290972E70079062F /* SceneDelegate.swift in Sources */,
 				4E4651BA290DB7CF00344570 /* ListPageController.swift in Sources */,
+				4E4651E1290EABF300344570 /* QuotesData.swift in Sources */,
 				4E4651DD290DC2C600344570 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
