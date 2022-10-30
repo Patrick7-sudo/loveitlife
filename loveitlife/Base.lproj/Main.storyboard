@@ -62,7 +62,7 @@
                                             </constraint>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="eYm-2u-PRM"/>
                                         </constraints>
-                                        <color key="tintColor" name="buttonTextColor"/>
+                                        <color key="tintColor" name="fontColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic">
                                             <attributedString key="attributedTitle">
@@ -149,18 +149,11 @@
                                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-Si-Z9I">
                                                         <rect key="frame" x="0.0" y="0.0" width="275" height="50"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jry-37-0EM">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome, " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jry-37-0EM">
                                                                 <rect key="frame" x="43.666666666666671" y="-0.66666666666665719" width="187.66666666666663" height="46.666666666666664"/>
-                                                                <attributedString key="attributedText">
-                                                                    <fragment content="Welcome, ">
-                                                                        <attributes>
-                                                                            <color key="NSColor" red="0.109803915" green="0.1176470518" blue="0.1019607931" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                            <font key="NSFont" size="40" name="Nunito-ExtraBold"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                </attributedString>
-                                                                <nil key="highlightedColor"/>
+                                                                <fontDescription key="fontDescription" name="Nunito-ExtraBold" family="Nunito" pointSize="40"/>
+                                                                <color key="textColor" name="fontColor"/>
+                                                                <color key="highlightedColor" name="fontColor"/>
                                                             </label>
                                                         </subviews>
                                                         <constraints>
@@ -173,10 +166,10 @@
                                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xE2-UM-lu9">
                                                         <rect key="frame" x="0.0" y="50" width="275" height="50"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dave" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="aco-qF-d5P">
-                                                                <rect key="frame" x="93.333333333333343" y="0.0" width="88" height="48"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dave" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="aco-qF-d5P">
+                                                                <rect key="frame" x="93" y="0.0" width="136" height="48"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                                                <color key="textColor" red="0.109803915" green="0.1176470518" blue="0.1019607931" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="textColor" name="fontColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -199,11 +192,11 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLH-1G-Uzu">
                                                         <rect key="frame" x="0.0" y="0.0" width="275" height="55"/>
-                                                        <color key="backgroundColor" red="0.41176474089999998" green="0.46666663889999999" blue="0.270588249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" name="buttonColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="55" id="mtS-bQ-L6k"/>
                                                         </constraints>
-                                                        <color key="tintColor" red="0.99215686319999996" green="1" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" name="buttonTextColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button">
                                                             <attributedString key="attributedTitle">
@@ -220,11 +213,11 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sws-Jx-Rd1">
                                                         <rect key="frame" x="0.0" y="96" width="275" height="54"/>
-                                                        <color key="backgroundColor" red="0.41176474089999998" green="0.46666663889999999" blue="0.270588249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" name="buttonColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="55" id="5wM-M4-asi"/>
                                                         </constraints>
-                                                        <color key="tintColor" red="0.99215686319999996" green="1" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" name="buttonTextColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button">
                                                             <attributedString key="attributedTitle">
@@ -258,18 +251,12 @@
                                                     <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Tdu-fn-z5V">
                                                         <rect key="frame" x="0.0" y="0.0" width="368" height="48"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kpv-Xl-GxF">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Don't let yesterday take up too much of today.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Kpv-Xl-GxF">
                                                                 <rect key="frame" x="22.666666666666657" y="6" width="323" height="17.666666666666668"/>
-                                                                <attributedString key="attributedText">
-                                                                    <fragment content="&quot;Don't let yesterday take up too much of today.&quot;">
-                                                                        <attributes>
-                                                                            <color key="NSColor" red="0.109803915" green="0.1176470518" blue="0.1019607931" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                            <font key="NSFont" size="15" name="Nunito-Medium"/>
-                                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                </attributedString>
-                                                                <nil key="highlightedColor"/>
+                                                                <color key="tintColor" name="buttonTextColor"/>
+                                                                <fontDescription key="fontDescription" name="Nunito-Medium" family="Nunito" pointSize="15"/>
+                                                                <color key="textColor" name="fontColor"/>
+                                                                <color key="highlightedColor" name="buttonTextColor"/>
                                                             </label>
                                                         </subviews>
                                                         <constraints>
@@ -399,8 +386,14 @@
         <namedColor name="backgroundMainColor">
             <color red="0.99199998378753662" green="1" blue="0.9649999737739563" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
-        <namedColor name="buttonTextColor">
+        <namedColor name="buttonColor">
             <color red="0.41200000047683716" green="0.46700000762939453" blue="0.27099999785423279" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="buttonTextColor">
+            <color red="0.99448829890000001" green="0.97856551410000003" blue="0.9551425576" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fontColor">
+            <color red="0.10999999940395355" green="0.11800000071525574" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="loginInputBox">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
