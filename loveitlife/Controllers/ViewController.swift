@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
  
     
@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        if user text something it will let viewController know what user doing. self refer to viewcontroller
+        userPassCodeInput.delegate = self
         // Do any additional setup after loading the view.
         
         //styling user Input for logIn passcode
@@ -43,8 +45,19 @@ class ViewController: UIViewController {
 
 
     @IBAction func Loginpressed(_ sender: UIButton) {
+//        after press the button hide the keyboard
+        userPassCodeInput.endEditing(true)
         print("Hellothere")
+//        print(userPassCodeInput.text!)
         self.performSegue(withIdentifier: "goToWelcomePage", sender: self)
+    }
+    
+//     to initailze the submit button and get the info from the userPasscode
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        //        after press the return button hide the keyboard
+                userPassCodeInput.endEditing(true)
+        print(userPassCodeInput.text!)
+        return true
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
