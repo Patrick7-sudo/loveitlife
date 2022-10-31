@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13636E8DCA1A347FB832177F /* Pods_loveitlife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89074B7FD60B86A2E98968DC /* Pods_loveitlife.framework */; };
 		4E4651BA290DB7CF00344570 /* ListPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651B9290DB7CF00344570 /* ListPageController.swift */; };
 		4E4651DD290DC2C600344570 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651DC290DC2C600344570 /* List.swift */; };
 		4E4651DF290E950300344570 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651DE290E950300344570 /* QuotesManager.swift */; };
@@ -19,6 +20,7 @@
 		4EC6D02A290972E70079062F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D028290972E70079062F /* Main.storyboard */; };
 		4EC6D02C290972E70079062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D02B290972E70079062F /* Assets.xcassets */; };
 		4EC6D02F290972E70079062F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D02D290972E70079062F /* LaunchScreen.storyboard */; };
+		4ED962BE290FEA8200EE6A81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED962BD290FEA8200EE6A81 /* GoogleService-Info.plist */; };
 		4EE011E3290AF151008B79AB /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */; };
 		4EE011E5290AF444008B79AB /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE011E4290AF444008B79AB /* Nunito-Light.ttf */; };
 		4EF999F0290AE4A100AB2D56 /* Ubuntu-Title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */; };
@@ -28,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DAFE29A1F7444B54361453B /* Pods-loveitlife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loveitlife.debug.xcconfig"; path = "Target Support Files/Pods-loveitlife/Pods-loveitlife.debug.xcconfig"; sourceTree = "<group>"; };
 		4E4651B9290DB7CF00344570 /* ListPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageController.swift; sourceTree = "<group>"; };
 		4E4651DC290DC2C600344570 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		4E4651DE290E950300344570 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
@@ -42,12 +45,15 @@
 		4EC6D02B290972E70079062F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC6D02E290972E70079062F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC6D030290972E70079062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED962BD290FEA8200EE6A81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Medium.ttf"; path = "../../../Nunito (1)/static/Nunito-Medium.ttf"; sourceTree = "<group>"; };
 		4EE011E4290AF444008B79AB /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Light.ttf"; path = "../../../Nunito (1)/static/Nunito-Light.ttf"; sourceTree = "<group>"; };
 		4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Title.ttf"; path = "../../../ubuntu_title/Ubuntu-Title.ttf"; sourceTree = "<group>"; };
 		4EF999F1290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MavenPro-VariableFont_wght.ttf"; path = "../../../Maven_Pro/MavenPro-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		4EF999F3290AE72600AB2D56 /* FS-Joey-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FS-Joey-Bold.ttf"; path = "../../../../Downloads/FS-Joey-Bold.ttf"; sourceTree = "<group>"; };
 		4EF999F5290AE80300AB2D56 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Bold.ttf"; path = "../../../Nunito (1)/static/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		7D53733AE957BE3B4D0E4E19 /* Pods-loveitlife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loveitlife.release.xcconfig"; path = "Target Support Files/Pods-loveitlife/Pods-loveitlife.release.xcconfig"; sourceTree = "<group>"; };
+		89074B7FD60B86A2E98968DC /* Pods_loveitlife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loveitlife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13636E8DCA1A347FB832177F /* Pods_loveitlife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +94,8 @@
 			children = (
 				4EC6D021290972E70079062F /* loveitlife */,
 				4EC6D020290972E70079062F /* Products */,
+				E28C9FA59A42E9331BE45CE6 /* Pods */,
+				C29A8E31D28DD9C97897EB3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +119,7 @@
 				4EC6D02B290972E70079062F /* Assets.xcassets */,
 				4EC6D02D290972E70079062F /* LaunchScreen.storyboard */,
 				4EC6D030290972E70079062F /* Info.plist */,
+				4ED962BD290FEA8200EE6A81 /* GoogleService-Info.plist */,
 			);
 			path = loveitlife;
 			sourceTree = "<group>";
@@ -127,6 +137,24 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		C29A8E31D28DD9C97897EB3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89074B7FD60B86A2E98968DC /* Pods_loveitlife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28C9FA59A42E9331BE45CE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DAFE29A1F7444B54361453B /* Pods-loveitlife.debug.xcconfig */,
+				7D53733AE957BE3B4D0E4E19 /* Pods-loveitlife.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC6D033290972E70079062F /* Build configuration list for PBXNativeTarget "loveitlife" */;
 			buildPhases = (
+				993CA71D22BD4BF3EA427CA3 /* [CP] Check Pods Manifest.lock */,
 				4EC6D01B290972E70079062F /* Sources */,
 				4EC6D01C290972E70079062F /* Frameworks */,
 				4EC6D01D290972E70079062F /* Resources */,
+				DF6358C1ED4784BACDB48893 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,12 +222,55 @@
 				4EC6D02C290972E70079062F /* Assets.xcassets in Resources */,
 				4EE011E5290AF444008B79AB /* Nunito-Light.ttf in Resources */,
 				4EF999F6290AE80300AB2D56 /* Nunito-Bold.ttf in Resources */,
+				4ED962BE290FEA8200EE6A81 /* GoogleService-Info.plist in Resources */,
 				4EC6D02A290972E70079062F /* Main.storyboard in Resources */,
 				4EE011E3290AF151008B79AB /* Nunito-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		993CA71D22BD4BF3EA427CA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loveitlife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6358C1ED4784BACDB48893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-loveitlife/Pods-loveitlife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-loveitlife/Pods-loveitlife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-loveitlife/Pods-loveitlife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4EC6D01B290972E70079062F /* Sources */ = {
@@ -354,6 +427,7 @@
 		};
 		4EC6D034290972E70079062F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAFE29A1F7444B54361453B /* Pods-loveitlife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -381,6 +455,7 @@
 		};
 		4EC6D035290972E70079062F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D53733AE957BE3B4D0E4E19 /* Pods-loveitlife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
