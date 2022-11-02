@@ -13,7 +13,7 @@ Getting Started
 Go through the following steps to install all the neccessary packages to run our app in your local machine.
 
 1️⃣ git clone the repo
-2️⃣ cd cloud383
+2️⃣ cd into the file
 3️⃣ pod install
 4️⃣ open the workspace file
 
