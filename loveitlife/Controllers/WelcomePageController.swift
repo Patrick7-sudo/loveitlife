@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import Firebase
 
 class WelcomePageController: UIViewController, QuotesManagerDelegate {
 //      variable to accept data from view controller
@@ -21,11 +22,15 @@ class WelcomePageController: UIViewController, QuotesManagerDelegate {
     @IBOutlet weak var welcomeWorriesButton: UIButton!
     
 //      motivational Quote Variable
+    
+////    type of button text transferred
+//    var buttonText: String?
     @IBOutlet weak var quotes: UILabel?
     
 //      variable to initialise Quotes manager2 from GuotesManager file
     var quotesManager2 = QuotesManager2()
     
+    var labelGreet = String((Auth.auth().currentUser?.email?.split(separator: "@")[0])!) as String
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +53,9 @@ class WelcomePageController: UIViewController, QuotesManagerDelegate {
 //      initialise the function called fetchQuotes from quotesManager2 file
         quotesManager2.fetchQuotes()
         
+        greetingPersonWelcomePage.text = labelGreet.capitalized
+     
+        
     }
     
     
@@ -64,12 +72,38 @@ class WelcomePageController: UIViewController, QuotesManagerDelegate {
     func didFailWithError(error: Error) {
         print(error)
     }
-    //
+
+//  If its proud button
 
     @IBAction func ProudsPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "goToListPage", sender: self)
+        performSegue(withIdentifier: "goToListController", sender: self)
+//        buttonText = welcomeProudsButton.titleLabel?.text
+//        print(buttonText)
+         
+    }
+    
+//  if Its worries button clicked
+    @IBAction func worriesPressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToListController", sender: self)
+//        buttonText = welcomeProudsButton.titleLabel?.text
+//        print(buttonText)
+         
+    }
+
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        var destinationVC = segue.destination as! ListController
         
-       
+//        destinationVC.userOption = buttonText
+   
+    }
+
+    
+    
+    
+    
+    @IBAction func unwindToViewControllerNameHere(segue: UIStoryboardSegue) {
+        //nothing goes here
     }
     
 }

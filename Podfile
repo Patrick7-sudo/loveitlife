@@ -5,6 +5,7 @@ target 'loveitlife' do
   use_frameworks!
 
   # Pods for loveitlife
+	pod 'Firebase'
 	pod 'FirebaseAuth'
 	pod 'FirebaseFirestore'
 end

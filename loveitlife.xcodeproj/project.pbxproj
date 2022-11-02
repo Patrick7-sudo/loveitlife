@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13636E8DCA1A347FB832177F /* Pods_loveitlife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89074B7FD60B86A2E98968DC /* Pods_loveitlife.framework */; };
-		4E4651BA290DB7CF00344570 /* ListPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651B9290DB7CF00344570 /* ListPageController.swift */; };
-		4E4651DD290DC2C600344570 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651DC290DC2C600344570 /* List.swift */; };
 		4E4651DF290E950300344570 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651DE290E950300344570 /* QuotesManager.swift */; };
 		4E4651E1290EABF300344570 /* QuotesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651E0290EABF300344570 /* QuotesData.swift */; };
 		4E4651E3290EC9F700344570 /* QuotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4651E2290EC9F700344570 /* QuotesModel.swift */; };
@@ -20,7 +18,13 @@
 		4EC6D02A290972E70079062F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D028290972E70079062F /* Main.storyboard */; };
 		4EC6D02C290972E70079062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D02B290972E70079062F /* Assets.xcassets */; };
 		4EC6D02F290972E70079062F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6D02D290972E70079062F /* LaunchScreen.storyboard */; };
-		4ED962BE290FEA8200EE6A81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED962BD290FEA8200EE6A81 /* GoogleService-Info.plist */; };
+		4ED329E8291069000030953F /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED329E7291069000030953F /* ListController.swift */; };
+		4ED329EC29106D0A0030953F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED329EA29106D0A0030953F /* TableViewCell.swift */; };
+		4ED329ED29106D0A0030953F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED329EB29106D0A0030953F /* TableViewCell.xib */; };
+		4ED329EF2911397A0030953F /* AddToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED329EE2911397A0030953F /* AddToList.swift */; };
+		4ED329F1291164EF0030953F /* EditPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED329F0291164EF0030953F /* EditPageController.swift */; };
+		4ED962D1291048A600EE6A81 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED962D0291048A600EE6A81 /* Message.swift */; };
+		4ED962D529104D8C00EE6A81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED962D429104D8C00EE6A81 /* GoogleService-Info.plist */; };
 		4EE011E3290AF151008B79AB /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */; };
 		4EE011E5290AF444008B79AB /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE011E4290AF444008B79AB /* Nunito-Light.ttf */; };
 		4EF999F0290AE4A100AB2D56 /* Ubuntu-Title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */; };
@@ -31,8 +35,6 @@
 
 /* Begin PBXFileReference section */
 		2DAFE29A1F7444B54361453B /* Pods-loveitlife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loveitlife.debug.xcconfig"; path = "Target Support Files/Pods-loveitlife/Pods-loveitlife.debug.xcconfig"; sourceTree = "<group>"; };
-		4E4651B9290DB7CF00344570 /* ListPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageController.swift; sourceTree = "<group>"; };
-		4E4651DC290DC2C600344570 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		4E4651DE290E950300344570 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		4E4651E0290EABF300344570 /* QuotesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesData.swift; sourceTree = "<group>"; };
 		4E4651E2290EC9F700344570 /* QuotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesModel.swift; sourceTree = "<group>"; };
@@ -45,7 +47,13 @@
 		4EC6D02B290972E70079062F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC6D02E290972E70079062F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC6D030290972E70079062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4ED962BD290FEA8200EE6A81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4ED329E7291069000030953F /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		4ED329EA29106D0A0030953F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4ED329EB29106D0A0030953F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4ED329EE2911397A0030953F /* AddToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToList.swift; sourceTree = "<group>"; };
+		4ED329F0291164EF0030953F /* EditPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageController.swift; sourceTree = "<group>"; };
+		4ED962D0291048A600EE6A81 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4ED962D429104D8C00EE6A81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4EE011E2290AF151008B79AB /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Medium.ttf"; path = "../../../Nunito (1)/static/Nunito-Medium.ttf"; sourceTree = "<group>"; };
 		4EE011E4290AF444008B79AB /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Light.ttf"; path = "../../../Nunito (1)/static/Nunito-Light.ttf"; sourceTree = "<group>"; };
 		4EF999EF290AE4A100AB2D56 /* Ubuntu-Title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Title.ttf"; path = "../../../ubuntu_title/Ubuntu-Title.ttf"; sourceTree = "<group>"; };
@@ -71,10 +79,10 @@
 		4E4651DB290DC2AD00344570 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				4E4651DC290DC2C600344570 /* List.swift */,
 				4E4651DE290E950300344570 /* QuotesManager.swift */,
 				4E4651E0290EABF300344570 /* QuotesData.swift */,
 				4E4651E2290EC9F700344570 /* QuotesModel.swift */,
+				4ED962D0291048A600EE6A81 /* Message.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -84,7 +92,9 @@
 			children = (
 				4EC6D026290972E70079062F /* ViewController.swift */,
 				4E76BB4D290B011F00DDF52B /* WelcomePageController.swift */,
-				4E4651B9290DB7CF00344570 /* ListPageController.swift */,
+				4ED329E7291069000030953F /* ListController.swift */,
+				4ED329EE2911397A0030953F /* AddToList.swift */,
+				4ED329F0291164EF0030953F /* EditPageController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,18 +120,28 @@
 		4EC6D021290972E70079062F /* loveitlife */ = {
 			isa = PBXGroup;
 			children = (
-				4E4651DB290DC2AD00344570 /* models */,
 				4EC6D022290972E70079062F /* AppDelegate.swift */,
 				4EC6D024290972E70079062F /* SceneDelegate.swift */,
+				4ED329E929106CCD0030953F /* View */,
+				4E4651DB290DC2AD00344570 /* models */,
 				4E76BB4C290B00FC00DDF52B /* Controllers */,
-				4EC6D028290972E70079062F /* Main.storyboard */,
 				4EF999B4290AD6D300AB2D56 /* Fonts */,
 				4EC6D02B290972E70079062F /* Assets.xcassets */,
 				4EC6D02D290972E70079062F /* LaunchScreen.storyboard */,
 				4EC6D030290972E70079062F /* Info.plist */,
-				4ED962BD290FEA8200EE6A81 /* GoogleService-Info.plist */,
+				4ED962D429104D8C00EE6A81 /* GoogleService-Info.plist */,
 			);
 			path = loveitlife;
+			sourceTree = "<group>";
+		};
+		4ED329E929106CCD0030953F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EC6D028290972E70079062F /* Main.storyboard */,
+				4ED329EA29106D0A0030953F /* TableViewCell.swift */,
+				4ED329EB29106D0A0030953F /* TableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4EF999B4290AD6D300AB2D56 /* Fonts */ = {
@@ -151,7 +171,6 @@
 				2DAFE29A1F7444B54361453B /* Pods-loveitlife.debug.xcconfig */,
 				7D53733AE957BE3B4D0E4E19 /* Pods-loveitlife.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -216,13 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF999F0290AE4A100AB2D56 /* Ubuntu-Title.ttf in Resources */,
+				4ED329ED29106D0A0030953F /* TableViewCell.xib in Resources */,
 				4EF999F4290AE72600AB2D56 /* FS-Joey-Bold.ttf in Resources */,
 				4EF999F2290AE61000AB2D56 /* MavenPro-VariableFont_wght.ttf in Resources */,
 				4EC6D02F290972E70079062F /* LaunchScreen.storyboard in Resources */,
 				4EC6D02C290972E70079062F /* Assets.xcassets in Resources */,
 				4EE011E5290AF444008B79AB /* Nunito-Light.ttf in Resources */,
 				4EF999F6290AE80300AB2D56 /* Nunito-Bold.ttf in Resources */,
-				4ED962BE290FEA8200EE6A81 /* GoogleService-Info.plist in Resources */,
+				4ED962D529104D8C00EE6A81 /* GoogleService-Info.plist in Resources */,
 				4EC6D02A290972E70079062F /* Main.storyboard in Resources */,
 				4EE011E3290AF151008B79AB /* Nunito-Medium.ttf in Resources */,
 			);
@@ -278,14 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC6D027290972E70079062F /* ViewController.swift in Sources */,
+				4ED329E8291069000030953F /* ListController.swift in Sources */,
+				4ED329F1291164EF0030953F /* EditPageController.swift in Sources */,
 				4E76BB4E290B011F00DDF52B /* WelcomePageController.swift in Sources */,
 				4E4651E3290EC9F700344570 /* QuotesModel.swift in Sources */,
 				4EC6D023290972E70079062F /* AppDelegate.swift in Sources */,
+				4ED329EC29106D0A0030953F /* TableViewCell.swift in Sources */,
 				4E4651DF290E950300344570 /* QuotesManager.swift in Sources */,
 				4EC6D025290972E70079062F /* SceneDelegate.swift in Sources */,
-				4E4651BA290DB7CF00344570 /* ListPageController.swift in Sources */,
+				4ED962D1291048A600EE6A81 /* Message.swift in Sources */,
 				4E4651E1290EABF300344570 /* QuotesData.swift in Sources */,
-				4E4651DD290DC2C600344570 /* List.swift in Sources */,
+				4ED329EF2911397A0030953F /* AddToList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

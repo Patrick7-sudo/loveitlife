@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="loveitlife" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9X-El-l9x">
+                        <rect key="frame" x="5" y="5" width="369" height="120"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6yT-AH-NhN">
+                                <rect key="frame" x="0.0" y="20" width="369" height="70"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SjJ-F2-azh">
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="70"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello there" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWQ-bB-7x0">
+                                                <rect key="frame" x="10" y="10" width="349" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="hWQ-bB-7x0" secondAttribute="bottom" constant="10" id="207-bR-wdA"/>
+                                            <constraint firstAttribute="trailing" secondItem="hWQ-bB-7x0" secondAttribute="trailing" constant="10" id="247-ed-ncq"/>
+                                            <constraint firstItem="hWQ-bB-7x0" firstAttribute="top" secondItem="SjJ-F2-azh" secondAttribute="top" constant="10" id="Tu8-eP-Xyw"/>
+                                            <constraint firstItem="hWQ-bB-7x0" firstAttribute="leading" secondItem="SjJ-F2-azh" secondAttribute="leading" constant="10" id="h6g-hu-g7u"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="133" translatesAutoresizingMaskIntoConstraints="NO" id="Cln-iU-6IO">
+                                <rect key="frame" x="0.0" y="100" width="369" height="31"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="muw-Fx-yWd">
+                                        <rect key="frame" x="10" y="0.0" width="108" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="61c-SP-PtP"/>
+                                        </constraints>
+                                        <color key="tintColor" name="fontColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="trash" catalog="system">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Delete">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.41176474089999998" green="0.46666663889999999" blue="0.270588249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="16" name="Nunito-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" image="trash" catalog="system">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Delete">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Nunito-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="fontColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CHK-hZ-vEi">
+                                        <rect key="frame" x="251" y="0.0" width="108" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="sIt-6u-3uB"/>
+                                        </constraints>
+                                        <color key="tintColor" name="fontColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="pencil" catalog="system">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Edit">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.41176474089999998" green="0.46666663889999999" blue="0.270588249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <font key="NSFont" size="16" name="Nunito-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Edit">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Nunito-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="fontColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onAddToCartPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="48v-jW-GJa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="CHK-hZ-vEi" secondAttribute="trailing" constant="10" id="2hR-g4-hcL"/>
+                                    <constraint firstItem="muw-Fx-yWd" firstAttribute="leading" secondItem="Cln-iU-6IO" secondAttribute="leading" constant="10" id="a1u-XA-9gM"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Cln-iU-6IO" secondAttribute="trailing" id="0Pe-xv-xAH"/>
+                            <constraint firstAttribute="trailing" secondItem="6yT-AH-NhN" secondAttribute="trailing" id="5cv-Oh-Bv7"/>
+                            <constraint firstItem="Cln-iU-6IO" firstAttribute="centerX" secondItem="y9X-El-l9x" secondAttribute="centerX" id="7cW-C0-1yV"/>
+                            <constraint firstAttribute="height" constant="120" id="95z-Ku-LcX"/>
+                            <constraint firstItem="Cln-iU-6IO" firstAttribute="top" secondItem="6yT-AH-NhN" secondAttribute="bottom" constant="10" id="UVN-0B-tdr"/>
+                            <constraint firstAttribute="width" constant="369" id="dAa-Gi-iTL"/>
+                            <constraint firstItem="Cln-iU-6IO" firstAttribute="leading" secondItem="y9X-El-l9x" secondAttribute="leading" id="qB5-K7-UNv"/>
+                            <constraint firstItem="6yT-AH-NhN" firstAttribute="leading" secondItem="y9X-El-l9x" secondAttribute="leading" id="qoY-Hg-rpd"/>
+                            <constraint firstItem="6yT-AH-NhN" firstAttribute="top" secondItem="y9X-El-l9x" secondAttribute="top" constant="20" id="wt5-3c-mcC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="backgroundMainColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="y9X-El-l9x" secondAttribute="bottom" id="Jqg-Ho-Ovn"/>
+                    <constraint firstItem="y9X-El-l9x" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="VX7-J6-T8o"/>
+                    <constraint firstItem="y9X-El-l9x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="YF6-BW-xK5"/>
+                    <constraint firstItem="y9X-El-l9x" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="fgU-YQ-cu0"/>
+                    <constraint firstAttribute="trailing" secondItem="y9X-El-l9x" secondAttribute="trailing" constant="5" id="jK5-8d-Pow"/>
+                    <constraint firstItem="y9X-El-l9x" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="sQH-yK-NNm"/>
+                    <constraint firstItem="y9X-El-l9x" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="xgP-h4-mTa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellContainer" destination="y9X-El-l9x" id="pob-YL-c29"/>
+                <outlet property="labelInput" destination="hWQ-bB-7x0" id="1uP-9a-EF7"/>
+            </connections>
+            <point key="canvasLocation" x="171.73913043478262" y="131.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <namedColor name="backgroundMainColor">
+            <color red="0.99199998378753662" green="1" blue="0.9649999737739563" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="fontColor">
+            <color red="0.10999999940395355" green="0.11800000071525574" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
