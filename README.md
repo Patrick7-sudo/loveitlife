@@ -1,6 +1,6 @@
 # loveitlife
 Atomic Media - LoveItLife -
-Welcome to Tech for the position iOS Developer at Atomic Media.
+Welcome to Tech test for the position iOS Developer at Atomic Media.
 This iOS application has been created specifically for this position! 
 
 The idea behind this application is provide a tool for user to improve their mental health by removing negative thoughts from their mind and focusing on the things that make them happy and content.
