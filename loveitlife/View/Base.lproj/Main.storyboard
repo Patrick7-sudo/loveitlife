@@ -50,7 +50,14 @@
                                                 <variation key="heightClass=compact" constant="25"/>
                                             </constraint>
                                         </constraints>
-                                        <attributedString key="attributedText"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="patrick@patrick.com">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="Enter Your Passcode" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OY3-OJ-QLq">
@@ -63,7 +70,15 @@
                                                 <variation key="heightClass=compact" constant="25"/>
                                             </constraint>
                                         </constraints>
-                                        <attributedString key="attributedText"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="123456P">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" metaFont="smallSystem"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGB-mo-xUz">
@@ -402,7 +417,6 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="removeAllFunction:" destination="8xt-kf-wED" eventType="touchUpInside" id="52y-w2-jIQ"/>
                                             <segue destination="VQj-fA-Jl1" kind="show" identifier="goToEditPageTemp" id="u9p-eY-qZ7"/>
                                         </connections>
                                     </button>
