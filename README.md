@@ -1,13 +1,15 @@
 # loveitlife
-Atomic Media LoveItLife
-Welcome to Tech Testfro the position iOS Developer at Atomic Media.
+Atomic Media - LoveItLife -
+Welcome to Tech for the position iOS Developer at Atomic Media.
 This iOS application has been created specifically for this position! 
-The idea behind this application is provide a tool for user to improve their mental health by removing negative thoughts from their mind and focisign on the things that make them happy and content.
+
+The idea behind this application is provide a tool for user to improve their mental health by removing negative thoughts from their mind and focusing on the things that make them happy and content.
 
 This is a iOS application created using Swift.
+
 Third party API is connected to this application and the application has its own database.
 
-You can view it deployed on Netlify here 👉 Cloud383 App
+You can view it by opening the application on XCode simulator
 
 Getting Started
 Go through the following steps to install all the neccessary packages to run our app in your local machine.
